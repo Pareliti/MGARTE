@@ -1,0 +1,52 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilizando o título da página */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Estilizando a lista de produtos */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilizando cada item da lista */
+  li {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilizando o título de cada produto */
+  li h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  /* Estilizando a descrição de cada produto */
+  li p {
+    margin: 5px 0;
+  }
+  
+  /* Estilizando o preço de cada produto */
+  li p:last-of-type {
+    font-weight: bold;
+    color: green;
+  }
+  
+  li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
